@@ -1,0 +1,18 @@
+{
+  "name": "date-format-simple",
+  "version": "0.1.0",
+  "description": "simple JavaScript date library for formatting dates",
+  "scripts": {
+    "test": "mocha test",
+    "compile": "babel -d lib/ src/",
+    "prepublish": "npm run compile"
+  },
+  "main": "index.js",
+  "author": {
+    "name": "ingpdw",
+    "email": "ingpdw@gmail.com"
+  },
+  "repository": "https://github.com/ingpdw/date-format-simple",
+  "license": "MIT",
+  "dependencies": {}
+}
