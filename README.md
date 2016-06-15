@@ -3,18 +3,18 @@
 simple JavaScript date library for formatting dates.
 
 ## output
-a few seconds ago
-30 seconds ago
-a minute ago
-3 minutes ago
-an hour ago
-5 hours ago
-a days ago
-30 days ago
-a month ago
-11 months ago
-a year ago
-2 years ago
+* a few seconds ago
+* 30 seconds ago
+* a minute ago
+* 3 minutes ago
+* an hour ago
+* 5 hours ago
+* a days ago
+* 30 days ago
+* a month ago
+* 11 months ago
+* a year ago
+* 2 years ago
 
 ## Install
 
