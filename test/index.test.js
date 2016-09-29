@@ -11,6 +11,12 @@ describe('DateFormat class', function() {
     dateFormat = new DateFormat( +now );
   });
 
+  describe('GMTDate', function() {
+    it('should be 2016-07-19T00:52:53.280Z', function() {
+      var d = dateFormat.toGMTDate( '2016-07-11T07:09:32.277Z' );
+    });
+  });
+
   describe('second', function() {
     it('should be a few seconds ago.', function() {
       today = new Date( 2016, 10, 9, 23, 59, 59 );

@@ -33,6 +33,8 @@ var myDate = new Date( 2015, 5, 10 );
 var dateFormat = new DateFormat( today.getTime() );
 dateFormat.print( myDate.getTime() );
 
+dateFormat.toGMTDate( '2016-02-02T07:09:32.277Z' );
+
 ```
 
 ## API
