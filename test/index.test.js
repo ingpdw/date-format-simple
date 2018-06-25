@@ -3,8 +3,6 @@ var DateFormat = require( '..' ),
 
 var dateFormat, today, now;
 
-
-
 describe('DateFormat class', function() {
   beforeEach(function() {
     now = new Date( 2016, 10, 10 );

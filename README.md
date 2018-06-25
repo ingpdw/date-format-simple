@@ -53,7 +53,9 @@ dateFormat.print( milisecond );
 var dateFormat = new DateFormat( 2016, 3, 10, {
   'a_few_seconds_ago': 'just now',
   'months_ago': 'months ago~ :D'
-});
+}, false, 'YYYY-MM-DD' );
+
+// new DateFormat( date, msg, isGMT = false, dateFormat = 'YYYY-MM-DD' )
 
 dateFormat.print( new Date( 2016, 1, 10 ) );
 //result => 2 months ago~ :D
