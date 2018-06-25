@@ -38,8 +38,8 @@ export default class DateFormat {
 
   getDateFormat(y, m, d, h, t, s) {
     let printDate = this.dateFormat;
-    if (this.dateFormat.indexOf('YYYY') === -1) {
-      y = y.substring(2, 4);
+    if ( this.dateFormat.indexOf('YYYY') === -1 ) {
+      y = y.toString().substring( 2, 4 );
     }
 
     printDate = printDate.replace('YYYY', y).replace('YY', y).replace('MM', m).replace('DD', d);
