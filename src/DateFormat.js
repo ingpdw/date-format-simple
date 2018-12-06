@@ -111,7 +111,7 @@ export default class DateFormat {
     if (minutes > 1) return `${minutes}${this.format.minutes_ago}`;
     if (minutes > 0) return `${this.format.a_minute_ago}`;
 
-    if (seconds > 20) return `${seconds}${this.format.seconds_ago}`;
+    if (seconds > 20 && this.format.seconds_ago) return `${seconds}${this.format.seconds_ago}`;
     if (seconds > 0) return `${this.format.a_few_seconds_ago}`;
 
     return ``;
