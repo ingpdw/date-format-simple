@@ -44,7 +44,7 @@ export default class DateFormat {
 
     printDate = printDate.replace('YYYY', y).replace('YY', y).replace('MM', m).replace('DD', d);
 
-    if (h & t & s) {
+    if (h && t && s) {
       printDate = `${printDate} ${h}:${t}:${s}`;
     }
 
